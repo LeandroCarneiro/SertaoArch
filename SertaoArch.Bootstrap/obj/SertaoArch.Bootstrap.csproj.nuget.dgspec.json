@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\SertaoArch.Bootstrap\\SertaoArch.Bootstrap.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\SertaoArch.Bootstrap\\SertaoArch.Bootstrap.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\SertaoArch.Bootstrap\\SertaoArch.Bootstrap.csproj",
+        "projectName": "SertaoArch.Bootstrap",
+        "projectPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\SertaoArch.Bootstrap\\SertaoArch.Bootstrap.csproj",
+        "packagesPath": "C:\\Users\\l.d.oliveira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\SertaoArch.Bootstrap\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\l.d.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Application\\$ext_projectname$.Application.csproj": {
+                "projectPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Application\\$ext_projectname$.Application.csproj"
+              },
+              "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Business\\$ext_projectname$.Business.csproj": {
+                "projectPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Business\\$ext_projectname$.Business.csproj"
+              },
+              "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Data\\$ext_projectname$.Data.csproj": {
+                "projectPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Data\\$ext_projectname$.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

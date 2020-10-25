@@ -1,0 +1,50 @@
+﻿<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Sertao Arch Template</Name>
+    <Description>Domain Driven Design: Backend Solution Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SertaoProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>SertaoArchIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$projectname$.Api" CopyParameters="true">
+        SertaoArch.Api/MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$projectname$.Domain" CopyParameters="true">
+        SertaoArch.Domain/MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$projectname$.Application" CopyParameters="true">
+        SertaoArch.Application/MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$projectname$.Bootstrap" CopyParameters="true">
+        SertaoArch.Bootstrap/MyTemplate.vstemplate
+      </ProjectTemplateLink>      
+      <ProjectTemplateLink ProjectName="$projectname$.Business" CopyParameters="true">
+        SertaoArch.Business/MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$projectname$.Common" CopyParameters="true">
+        SertaoArch.Common/MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$projectname$.Data" CopyParameters="true">
+        SertaoArch.Data/MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$projectname$.DI" CopyParameters="true">
+        SertaoArch.DI/MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$projectname$.Mapping" CopyParameters="true">
+        SertaoArch.Mapping/MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$projectname$.ViewModels" CopyParameters="true">
+        SertaoArch.ViewModels/MyTemplate.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

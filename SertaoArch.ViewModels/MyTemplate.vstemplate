@@ -1,0 +1,31 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SertaoArch.ViewModels</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SertaoArch.ViewModels</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SertaoArch.ViewModels.csproj" File="SertaoArch.ViewModels.csproj" ReplaceParameters="true">
+      <Folder Name="AppObject" TargetFolderName="AppObject">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Answer_vw.cs">Answer_vw.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Question_vw.cs">Question_vw.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Survey_vw.cs">Survey_vw.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SurveyDetails_vw.cs">SurveyDetails_vw.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SurveyVersion_vw.cs">SurveyVersion_vw.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UserApp_vw.cs">UserApp_vw.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EntityBase_vw.cs">EntityBase_vw.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IAppService.cs">IAppService.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

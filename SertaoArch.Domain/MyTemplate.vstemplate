@@ -1,0 +1,33 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SertaoArch.Domain</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SertaoArch.Domain</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SertaoArch.Domain.csproj" File="SertaoArch.Domain.csproj" ReplaceParameters="true">
+      <Folder Name="Entities" TargetFolderName="Entities">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Answer.cs">Answer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Question.cs">Question.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Survey.cs">Survey.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SurveyVersion.cs">SurveyVersion.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UserApp.cs">UserApp.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ICrud.cs">ICrud.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IDbContext.cs">IDbContext.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EntityBase.cs">EntityBase.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

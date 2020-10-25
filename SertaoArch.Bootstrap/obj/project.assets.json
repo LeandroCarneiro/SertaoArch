@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection/3.1.1": {
+      "sha512": "Jg48cM12C8iqjpFMNXWEmJR/2jnmScV8Y8txVOayycLqHatLV2Cn4wuwj56KSOc/xVWwlWmq9Y5ebDH6awnexw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.1.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.1": {
+      "sha512": "uKZr5b4w9nQE6UAXS4PqBFbg2qe6kS+pdsCbDG2kHjUaWT/B7EOcDraoR52H/4BoBIEH3By5co6Wioru7+v9Zg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Application\\$ext_projectname$.Application.csproj",
+      "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Business\\$ext_projectname$.Business.csproj",
+      "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Data\\$ext_projectname$.Data.csproj",
+      "Microsoft.Extensions.DependencyInjection >= 3.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\l.d.oliveira\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\SertaoArch.Bootstrap\\SertaoArch.Bootstrap.csproj",
+      "projectName": "SertaoArch.Bootstrap",
+      "projectPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\SertaoArch.Bootstrap\\SertaoArch.Bootstrap.csproj",
+      "packagesPath": "C:\\Users\\l.d.oliveira\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\SertaoArch.Bootstrap\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\l.d.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Application\\$ext_projectname$.Application.csproj": {
+              "projectPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Application\\$ext_projectname$.Application.csproj"
+            },
+            "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Business\\$ext_projectname$.Business.csproj": {
+              "projectPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Business\\$ext_projectname$.Business.csproj"
+            },
+            "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Data\\$ext_projectname$.Data.csproj": {
+              "projectPath": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Data\\$ext_projectname$.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Application\\$ext_projectname$.Application.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Application\\$ext_projectname$.Application.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Data\\$ext_projectname$.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Data\\$ext_projectname$.Data.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Business\\$ext_projectname$.Business.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\l.d.oliveira\\Documents\\Visual Studio 2019\\My Exported Templates\\$ext_projectname$.Business\\$ext_projectname$.Business.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
